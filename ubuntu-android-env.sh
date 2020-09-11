@@ -9,7 +9,7 @@ sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install bc bison 
 # Compile git with openssl
 git clone https://github.com/paul-nelson-baker/git-openssl-shellscript
 cd git-openssl-shellscript
-sudo bash ./compile-git-with-openssl.sh
+sudo bash ./compile-git-with-openssl.sh -skiptests
 cd ..
 source $HOME/.profile
 
